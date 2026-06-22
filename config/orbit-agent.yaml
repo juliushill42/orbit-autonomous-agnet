@@ -1,0 +1,10 @@
+orbit:
+  api_url: "https://gitlab.com/api/v4/orbit"
+  token: "MOCK_ORBIT_TOKEN"
+gitlab:
+  api_url: "https://gitlab.com/api/v4"
+  token: "MOCK_GITLAB_TOKEN"
+agent:
+  max_concurrent_tasks: 5
+  auto_create_mrs: true
+  risk_threshold: "medium"

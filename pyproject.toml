@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "orbit-autonomous-agent"
+version = "0.1.0"
+description = "Production-grade autonomous multi-agent repository optimization framework"
+dependencies = [
+    "click>=8.1.0",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "httpx>=0.24.0",
+    "loguru>=0.7.0",
+    "networkx>=3.0.0",
+    "PyYAML>=6.0.1"
+]
+
+[project.scripts]
+orbit-agent = "src.cli.main:cli"
